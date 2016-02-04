@@ -1,0 +1,13 @@
+{
+  "name": "node-react-pdfmake",
+  "version": "0.0.1",
+  "description": "pdfmake iframe wrapper for react on node and express",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "react",
+    "pdfmake"
+  ],
+  "author": "Arturs Girons <arturs.girons@gmail.com> (http://www.piip.lv)",
+  "license": "ISC"
+}
