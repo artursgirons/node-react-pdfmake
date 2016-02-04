@@ -5,9 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=0.10.0"
   },
+  "files": [
+    "index.js",
+    "assets/",
+    "node/",
+    "component/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/artursgirons/node-react-pdfmake.git"
@@ -17,8 +23,13 @@
     "react",
     "pdfmake"
   ],
-  "author": "Arturs Girons <arturs.girons@gmail.com> (http://www.piip.lv)",
+  "author": {
+    "name": "Arturs Girons", 
+    "email": "arturs.girons@gmail.com",
+    "url": "http://www.piip.lv"
+  },
   "license": "ISC",
+  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/artursgirons/node-react-pdfmake/issues"
   },
