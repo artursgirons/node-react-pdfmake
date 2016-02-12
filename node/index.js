@@ -3,7 +3,9 @@ module.exports = function() {
   var path = require('path');
   var app = express();
 
-  app.use(express.static(path.resolve(__dirname, '..', 'assets')))
+  var assetsPath = path.resolve(__dirname, path.relative(__dirname, './'), 'node_modules/node-react-pdfmake/assets')
+
+  app.use(express.static(assetsPath))
 
   return app
 }
