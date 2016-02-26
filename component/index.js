@@ -41,7 +41,7 @@ module.exports = React.createClass({
   onLoadHandler: function() {
     this.setState({loaded: true}, function() {
       const context = this.refs.iframe.getDOMNode().contentWindow.createpdf
-      context.initialize(this.props.definition, this.props.name)
+      context.initialize(JSON.stringify(this.props.definition), this.props.name)
       this.executeCommands()
     }.bind(this))
   },

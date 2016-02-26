@@ -1,6 +1,6 @@
 {
   "name": "node-react-pdfmake",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "pdfmake iframe wrapper for react on node and express",
   "main": "index.js",
   "dependencies": {},

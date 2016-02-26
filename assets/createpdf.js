@@ -6,7 +6,7 @@ var createpdf = (function () {
 
   return {
     initialize: function(_definition, _name) {
-      definition = JSON.parse(JSON.stringify(_definition));
+      definition = JSON.parse(_definition);
       name = _name;
       pdf = pdfMake.createPdf(definition);
     },
