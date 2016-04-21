@@ -11,7 +11,7 @@ module.exports = React.createClass({
   },
 
   requestPDF: function() {
-    return this.state.print || this.state.oepn || this.state.save || this.state.loaded
+    return this.state.print || this.state.open || this.state.save || this.state.loaded
   },
 
   render: function() {
